@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.registerPage {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 400px;
+    background: #eee;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+
+.registerPage h1 {
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.registerPage form {
+    padding: 12px 40px;
+    box-sizing: border-box;
+}
+
+.textField {
+    display: flex;
+    flex-direction: column;
+    color: rgb(66, 64, 64);
+    width: 100%;
+    margin: 12px;
+}
+
+.textField input {
+    width: 95%;
+    padding: 8px;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+
+.password-input-container {
+    position: relative;
+}
+
+.show-hide-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 58%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+
+button {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #34AF6D;
+    outline: none;
+}
+
+.registerPage a {
+    color: #eee;
+    margin-top: 40px;
+    background-color: #34AF6D;
+    border-radius: 6px;
+    padding: 4px;
+}

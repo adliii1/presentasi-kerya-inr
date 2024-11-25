@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    height: 90vh;
+    background: #eee;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 25px 25px;
+    font-size: 15px;
+    min-width: 90%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+table thead tr {
+    color: #fff;
+    background: #34AF6D;
+    text-align: left;
+    font-weight: bold;
+}
+
+.container a {
+    color: #eee;
+    margin: 12px;
+    padding: 6px;
+    background-color: #34AF6D;
+    border-radius: 6px;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background: #f3f3f3;
+}
+
+.table tbody tr.active {
+    font-weight: bold;
+    color: #4AD489;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #4AD489;
+}
+
+.table button {
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #4AD489;
+}
+
+.table button:hover {
+    background: #4AD489;
+    color: #fff;
+    transition: 0.5rem;
+}
+
+
